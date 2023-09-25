@@ -1,0 +1,113 @@
+body {
+  background-color: #f3c5c5;
+  display: grid;
+  text-align: center;
+  font-family: "Rowdies", cursive;
+}
+
+body,
+.main-box,
+#buttom {
+  place-content: center;
+}
+
+button,
+input {
+  border: none;
+  font-family: "Rowdies", cursive;
+}
+
+button {
+  background-color: #c47ff8;
+}
+
+input {
+  height: 30px;
+  width: 190px;
+}
+h1 {
+  font-size: 2.2rem;
+  margin-top: 30px;
+}
+
+.custom-input-box{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+}
+
+#top {
+  margin-bottom: 40px;
+}
+
+.custom-input {
+  width: 235px;
+  height: 40px;
+  font-size: 1.1rem;
+  background-color: #f7ecde;
+  margin-bottom: 5px;
+}
+
+.main-box {
+  background-color: #c1a3a3;
+  width: 800px;
+  height: 500px;
+  border-radius: 3%;
+  display: grid;
+}
+
+.password-box {
+  padding: 15px;
+  width: 380px;
+  font-size: 1.5rem;
+  background-color: #fbf8f1;
+}
+
+.copy-btn {
+  position: relative;
+  padding: 21px;
+  border-radius: 7%;
+  bottom: 4px;
+  font-size: 1rem;
+}
+
+.copy-btn:hover {
+  background-color: #ffc4e1;
+}
+.gen-btn {
+  font-size: 1.7rem;
+  padding: 17px 190px 17px 190px;
+  margin-top: 40px;
+}
+
+.gen-btn:hover {
+  background-color: #ffc4e1;
+}
+
+@media only screen and (max-width: 740px) {
+  .main-box {
+    width: 350px;
+    height: 600px;
+  }
+  .password-box {
+    padding: 12px;
+    width: 230px;
+    margin-bottom: 50px;
+  }
+  .copy-btn {
+    padding: 18px;
+  }
+  .custom-input {
+    width: 130px;
+    height: 40px;
+    margin-bottom: 10px;
+  }
+  .gen-btn {
+    font-size: 1.2rem;
+    padding: 14px 110px 14px 110px;
+    margin-top: 40px;
+  }
+  #top {
+    margin-bottom: 50px;
+  }
+}
